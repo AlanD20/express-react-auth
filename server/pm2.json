@@ -1,0 +1,23 @@
+{
+  "apps": [
+    {
+      "name": "server-webapp",
+      "script": "./src/index.js",
+      "cwd": "./",
+      "watch": [
+        "*.*.",
+        "./src/**/*.*"
+      ],
+      "ignore_watch": [
+        "node_modules"
+      ],
+      "autorestart": true,
+      "env": {
+        "NODE_ENV": "local"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "webapp",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write client/src server/src"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {}
+}
